@@ -23,8 +23,8 @@ Empty
 <h5>제한사항</h5>
 
 <ul>
-<li>1 ≤ a ≤ 100</li>
-<li>1 ≤ d ≤ 100</li>
+<li>1 ≤ <code>a</code> ≤ 100</li>
+<li>1 ≤ <code>d</code> ≤ 100</li>
 <li>1 ≤ <code>included</code>의 길이 ≤ 100</li>
 <li><code>included</code>에는 true가 적어도 하나 존재합니다.</li>
 </ul>
@@ -96,7 +96,7 @@ Empty
 <p>입출력 예 #2</p>
 
 <ul>
-<li><p>예제 1번은 <code>a</code>와 <code>d</code>가 각각 3, 4이고 <code>included</code>의 길이가 7입니다. 이를 표로 나타내면 다음과 같습니다.</p>
+<li><p>예제 2번은 <code>a</code>와 <code>d</code>가 각각 7, 1이고 <code>included</code>의 길이가 7입니다. 이를 표로 나타내면 다음과 같습니다.</p>
 <table class="table">
         <thead><tr>
 <th></th>
