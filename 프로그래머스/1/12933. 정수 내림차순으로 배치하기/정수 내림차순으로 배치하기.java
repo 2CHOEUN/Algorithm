@@ -1,18 +1,13 @@
 import java.util.*;
 class Solution {
     public long solution(long n) {
-        
-        String num = n + "";
-        String number [] = num.split("");
-        
-        Arrays.sort(number);
-        
-        num = "";
-        
-        for(int i = number.length -1; i >= 0; i--){
-            num += number[i];
+        String [] str = String.valueOf(n).split("");
+        Arrays.sort(str);
+        StringBuilder br = new StringBuilder();
+        for(int i = str.length-1; i >= 0; i--){
+            br.append(str[i]);
         }
         
-        return Long.parseLong(num);
+        return Long.parseLong(br.toString());
     }
 }
