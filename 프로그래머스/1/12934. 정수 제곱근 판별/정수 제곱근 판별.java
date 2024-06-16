@@ -1,10 +1,12 @@
+import java.util.*;
 class Solution {
     public long solution(long n) {
-        for(long i = 1; i <= n; i++){
-            if(i * i == n){
-                return (i + 1) * (i + 1);
-            }
-        }
-        return -1;
+        long answer = -1;
+        long sqrt = (long)Math.sqrt(n);
+        
+        if(sqrt * sqrt == n){
+            answer = (sqrt + 1) * (sqrt + 1);
+         }
+        return answer;
     }
 }
