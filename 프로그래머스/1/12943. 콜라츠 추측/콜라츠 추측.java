@@ -1,21 +1,12 @@
 class Solution {
     public int solution(int num) {
-        long n = num;
+        int answer = 0;
+        while(num != 1 && answer < 500){
+            answer ++;
+            num = num % 2 == 0 ? (num / 2) : (num * 3) + 1;
         
-        if(num == 1){
-            return 0;
         }
         
-        for(int i = 1; i <= 500; i++){
-            if(n % 2 == 0){
-                n /= 2;
-            }else {
-                n = n * 3 + 1;
-            }
-            if(n == 1){
-                return i;
-            }
-        }
-        return -1;
+        return answer >= 400 ? -1 : answer;
     }
 }
