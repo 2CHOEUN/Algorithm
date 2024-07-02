@@ -1,16 +1,11 @@
-import java.util.*;
 class Solution {
     public String solution(String phone_number) {
-        StringBuffer br = new StringBuffer();
-        
-        for(int i = 0; i < phone_number.length(); i++){
-            if(i < phone_number.length() - 4){
-              br.append("*");
-            }else{
-              br.append(phone_number.charAt(i));
-
-            }
+        StringBuilder answer = new StringBuilder();
+        for (int i = 0 ; i < phone_number.length()-4; i++) {
+            answer.append("*");
         }
-        return br.toString();
+
+        answer.append(phone_number.substring(phone_number.length()-4));
+        return answer.toString();
     }
 }
