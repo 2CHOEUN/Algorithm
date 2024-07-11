@@ -1,14 +1,17 @@
 class Solution {
-    public boolean solution(String s) {
-        try{
-            if(s.length() !=4 && s.length() !=6){
-                return false;
-            }
-            int i = Integer.parseInt(s);
-        }catch(Exception e){
+      public boolean solution(String s) {
+        boolean answer = true;
+
+        if(!(s.length() == 4 || s.length() == 6)){
             return false;
         }
-            return true;
+        char [] chars = s.toCharArray();
+        for(char a : chars){
+            if(Character.isAlphabetic(a)){
+               return false;
+            }
+        }
 
+        return answer;
     }
 }
