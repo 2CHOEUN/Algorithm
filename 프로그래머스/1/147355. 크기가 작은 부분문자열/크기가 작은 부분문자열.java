@@ -1,17 +1,16 @@
 class Solution {
     public int solution(String t, String p) {
-        int plength = p.length();
+        int len = p.length();
+        long pParse = Long.parseLong(p);
         int answer = 0;
 
-        for(int i=0;i<=t.length()-plength;i++){
-            StringBuffer num = new StringBuffer();
-            for(int j=i;j<i+plength;j++){
-                num.append(t.charAt(j));
-            }
-            if(!num.equals("") && Long.parseLong(num.toString()) <= Long.parseLong(p)){
-                answer ++;
-            }
-        }
+      for(int i = 0 ; i <= t.length()-len; i++){
+          long num = Long.parseLong(t.substring(i, i+len));
+           if(num  <= pParse){
+               answer ++;
+           }
+        
+      }
         return answer;
     }
 }
