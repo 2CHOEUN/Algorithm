@@ -4,9 +4,9 @@ class Solution {
 
         while(n >= a){
            int num = (n / a) * a;
-            n = n - num + (num/a*b);
+            n = n - num + (num / a*b);
 
-            answer += (num/a) * b ;
+            answer += (num / a) * b ;
             
         }
         return answer;
