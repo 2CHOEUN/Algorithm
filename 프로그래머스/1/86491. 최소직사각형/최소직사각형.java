@@ -3,7 +3,7 @@ class Solution {
         int min = 0;
         int max = 0;
         
-        for(int i=0;i<sizes.length;i++){
+        for(int i = 0;i < sizes.length; i++){
             int mmin = 0;
             int mmax = 0;
             
