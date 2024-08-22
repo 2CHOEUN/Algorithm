@@ -7,7 +7,7 @@ class Solution {
         }
         char [] chars = s.toCharArray();
         for(char a : chars){
-            if(Character.isAlphabetic(a)){
+            if(Character.isAlphabetic( a )){
                return false;
             }
         }
