@@ -5,7 +5,7 @@ class Solution {
             if (a.charAt(n) == b.charAt(n)) {
                 return a.compareTo(b);
             } else {
-                return Character.compare(a.charAt(n), b.charAt(n));
+                return Character.compare(a.charAt(n),b.charAt(n));
             }
         });
         return strings;
