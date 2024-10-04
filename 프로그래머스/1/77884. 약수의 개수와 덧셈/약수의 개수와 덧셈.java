@@ -4,7 +4,7 @@ class Solution {
         int answer = 0;
         for(int i = left; i <= right; i++){
             ArrayList<Integer> arr = new ArrayList<>();
-            for(int j=1;j<=i;j++){
+            for(int j = 1 ; j <= i; j++){
                 if(i % j == 0){
                     arr.add(j);
                 }
