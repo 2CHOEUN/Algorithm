@@ -5,7 +5,7 @@ class Solution {
         int first = -1;
         int last = -1;
         
-        for(int i=0; i<arr.length;i++){
+        for(int i = 0; i<arr.length;i++){
             if(arr[i] == 2){
                 first = i;
                 break;
