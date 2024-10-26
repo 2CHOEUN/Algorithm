@@ -8,6 +8,6 @@ class Solution {
             sum += num_list[i];
         }
         
-        return answer > sum*sum ? 0 : 1;
+        return answer > sum * sum ? 0 : 1;
     }
 }
