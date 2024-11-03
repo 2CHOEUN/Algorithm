@@ -21,9 +21,8 @@ class Solution {
         if(first == -1 && last == -1){
             int [] answer = {-1};
             return answer;
-            
         }
-        
+    
         return Arrays.copyOfRange(arr,first,last+1);
     }
 }
