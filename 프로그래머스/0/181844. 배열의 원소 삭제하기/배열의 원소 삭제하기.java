@@ -16,7 +16,7 @@ class Solution {
             }
              arrList.add(arr[i]);
         }
-        
+    
         
         int[] answer = new int [arrList.size()];
         for(int i = 0; i < arrList.size(); i++){
