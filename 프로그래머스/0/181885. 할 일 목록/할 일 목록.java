@@ -11,7 +11,6 @@ class Solution {
         }
         
         String [] answer = new String[arr.size()];
-        
         for(int i = 0; i < answer.length; i++){
             answer[i] = arr.get(i);
         }
