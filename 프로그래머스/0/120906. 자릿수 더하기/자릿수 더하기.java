@@ -4,7 +4,7 @@ class Solution {
         String num = Integer.toString(n);
         int answer =0;
         
-        for(int i=0;i<num.length();i++){
+        for(int i=0;i < num.length();i++){
         answer += (num.charAt(i)-'0');
         }
 
