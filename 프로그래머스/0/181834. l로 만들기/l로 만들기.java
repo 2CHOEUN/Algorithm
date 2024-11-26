@@ -7,7 +7,6 @@ class Solution {
             }else{
                 answer += myString.charAt(i);
             }
-            
         }
         
         return answer;
