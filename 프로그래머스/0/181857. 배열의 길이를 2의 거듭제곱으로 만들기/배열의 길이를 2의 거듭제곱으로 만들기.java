@@ -3,7 +3,7 @@ class Solution {
     public int[] solution(int[] arr) {
         int[] answer = {};
         ArrayList <Integer>list = new ArrayList<Integer>();
-        for(int i=1;i<=10000000;i*=2){
+        for(int i=1;i <= 10000000;i *= 2){
             list.add(i);
         }
         
