@@ -1,33 +1,26 @@
 import java.util.*;
 class Solution {
     public String[] solution(String myStr) {
-        StringBuffer br = new StringBuffer();
+        // "a", "b", "c"를 ","로 치환
+        myStr = myStr.replace("a", ",").replace("b", ",").replace("c", ",");
         
-        ArrayList<String> arr = new ArrayList<String>();
+        // ","를 기준으로 문자열 분리
+        String[] temp = myStr.split(",");
         
-        for(int i = 0; i < myStr.length();i++){
-            if(myStr.charAt(i) == 'a' || myStr.charAt(i) == 'b' || myStr.charAt(i) == 'c'){
-                if(!br.toString().equals("")){
-                    arr.add(br.toString());
-                    br.delete(0,br.length());
-                }
-            }else{
-                br.append(myStr.charAt(i));
-            }
-        }
-
-        arr.add(br.toString());
-
-
-        String[] answer = new String[arr.size()];
-        
-        for(int i=0;i<answer.length;i++){
-            answer[i] = arr.get(i);
-            if(answer[0].equals("")){
-                answer[0] = "EMPTY";
+        // 빈 문자열을 제외한 결과를 리스트에 저장
+        List<String> resultList = new ArrayList<>();
+        for (String str : temp) {
+            if (!str.equals("")) {
+                resultList.add(str);
             }
         }
         
-        return answer;
+        // 결과 리스트가 비어 있다면 ["EMPTY"] 반환
+        if (resultList.isEmpty()) {
+            return new String[] {"EMPTY"};
+        }
+        
+        // 결과 리스트를 배열로 변환하여 반환
+        return resultList.toArray(new String[0]);
     }
 }
