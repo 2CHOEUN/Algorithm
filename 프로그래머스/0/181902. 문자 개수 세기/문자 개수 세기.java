@@ -1,6 +1,5 @@
 class Solution {
     public int[] solution(String my_string) {
-        
         int num = 0;
         
         for(char i = 'a'; i <='z'; i++){
