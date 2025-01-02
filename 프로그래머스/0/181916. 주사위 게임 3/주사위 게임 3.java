@@ -5,7 +5,6 @@ class Solution {
         int answer = 0;
         int num[] = {a, b, c, d};
         Arrays.sort(num);
-
         if (num[0] == num[1] && num[1] == num[2] && num[2] == num[3]) {
             return 1111 * num[0];
         } else if (num[0] == num[1] && num[1] == num[2]) {

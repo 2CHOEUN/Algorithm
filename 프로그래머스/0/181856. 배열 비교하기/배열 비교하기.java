@@ -6,7 +6,6 @@ class Solution {
         }else{
             int num1 = 0;
             int num2 = 0;
-            
             for(int i = 0; i < arr1.length ; i++){
                 num1 += arr1[i];
             }
