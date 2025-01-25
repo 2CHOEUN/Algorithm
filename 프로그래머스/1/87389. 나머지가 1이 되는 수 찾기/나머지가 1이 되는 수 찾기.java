@@ -1,10 +1,12 @@
 class Solution {
     public int solution(int n) {
-        for(int x = 1 ; x < n; x++){
+        int result = 0;
+        for(int x = 1; x <= n; x++){
             if(n % x == 1){
-                return x;
+                result = x;
+                break;
             }
         }
-        return 0;
+        return result;
     }
 }
