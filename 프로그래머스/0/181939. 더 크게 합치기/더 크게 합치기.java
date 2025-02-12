@@ -1,6 +1,8 @@
 class Solution {
     public int solution(int a, int b) {
- 
-        return Integer.parseInt(a + "" + b) >= Integer.parseInt(b+""+a)?Integer.parseInt(a+""+b):Integer.parseInt(b+""+a);
+        int ab = Integer.parseInt(String.valueOf(a) + String.valueOf(b));
+        int ba = Integer.parseInt(String.valueOf(b) + String.valueOf(a));
+        return ab > ba ? ab : ba;
+        
     }
 }
