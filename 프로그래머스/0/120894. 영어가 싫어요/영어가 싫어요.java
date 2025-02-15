@@ -2,7 +2,6 @@ import java.util.*;
 class Solution {
     public long solution(String numbers) {
         Map <String ,String> map = new HashMap <String, String>();
-        
         map.put("zero", "0");
         map.put("one", "1");
         map.put("two", "2");
@@ -15,12 +14,10 @@ class Solution {
         map.put("nine", "9");
         
         for(Map.Entry<String,String> entry : map.entrySet()){
-            
             String word = entry.getKey();
             String number = entry.getValue();
             
             numbers = numbers.replaceAll(word,number);
-            
         }
         return Long.parseLong(numbers);
     }
