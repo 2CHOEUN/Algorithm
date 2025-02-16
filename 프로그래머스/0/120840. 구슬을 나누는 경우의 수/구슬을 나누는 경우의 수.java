@@ -1,23 +1,13 @@
-import java.math.BigInteger;
 class Solution {
-    public BigInteger solution(int balls, int share) {
-        BigInteger n = BigInteger.ONE;
-        BigInteger m = BigInteger.ONE;
-        BigInteger x = BigInteger.ONE;
-
-        for (int i = 1; i <= balls; i++) {
-            n = n.multiply(BigInteger.valueOf(i));
+    public int solution(int balls, int share) {
+        double answer = 0;
+        double u = 1, d = 1;
+        for(int i = share ; i > 0; i--){
+            u *= balls;
+            d *= i;
+            balls--;
         }
-
-        for (int i = 1; i <= share; i++) {
-            m = m.multiply(BigInteger.valueOf(i));
-        }
-
-        for (int i = 1; i <= balls - share; i++) {
-            x = x.multiply(BigInteger.valueOf(i));
-        }
-
-        BigInteger answer = n.divide(x.multiply(m));
-        return answer;
+        answer = u / d;
+        return (int)answer;
     }
 }
