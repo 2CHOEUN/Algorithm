@@ -1,15 +1,9 @@
-import java.util.*;
 class Solution {
     public String[] solution(String[] names) {
-        ArrayList <String> arr = new ArrayList <String>();
-        
-        for(int i = 0; i < names.length; i = i + 5){
-            arr.add(names[i]);
-        }
-        
-        String [] answer = new String[arr.size()];
-        for(int i = 0; i < answer.length; i++){
-            answer[i] = arr.get(i);
+        String[] answer = new String[names.length % 5 == 0? names.length / 5 : names.length / 5 + 1];
+        int answerInt = 0;
+        for(int i = 0; i < names.length; i += 5){
+            answer[answerInt++] = names[i];
         }
         return answer;
     }
