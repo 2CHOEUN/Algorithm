@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 79.9 MB, 시간: 0.35 ms
+메모리: 85.2 MB, 시간: 0.36 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 08월 09일 23:28:30
+2025년 02월 23일 23:14:33
 
 ### 문제 설명
 
@@ -64,7 +64,8 @@
 <p>입출력 예 #1</p>
 
 <ul>
-<li><p>예제 1번의 <code>q</code>와 <code>r</code>은 각각 3, 1이고 인덱스와 그 값을 <code>q</code>로 나눈 나머지가 잘 보이도록 표로 만들면 다음과 같습니다.</p>
+<li>예제 1번의 <code>q</code>와 <code>r</code>은 각각 3, 1이고 인덱스와 그 값을 <code>q</code>로 나눈 나머지가 잘 보이도록 표로 만들면 다음과 같습니다.</li>
+</ul>
 <table class="table">
         <thead><tr>
 <th><code>code</code></th>
@@ -125,14 +126,13 @@
 <td>0</td>
 </tr>
 </tbody>
-      </table>
-<p><code>q</code>로 나눈 나머지가 1인 인덱스의 문자들을 앞에서부터 순서대로 이어 붙이면 "jerry"가 되므로 이를 return 합니다.</p></li>
-</ul>
-
+      </table><div class="highlight"><pre class="codehilite"><code>`q`로 나눈 나머지가 1인 인덱스의 문자들을 앞에서부터 순서대로 이어 붙이면 "jerry"가 되므로 이를 return 합니다.
+</code></pre></div>
 <p>입출력 예 #2</p>
 
 <ul>
-<li><p>예제 2번의 <code>q</code>와 <code>r</code>은 각각 1, 0이고 인덱스와 그 값을 <code>q</code>로 나눈 나머지가 잘 보이도록 표로 만들면 다음과 같습니다.</p>
+<li>예제 2번의 <code>q</code>와 <code>r</code>은 각각 1, 0이고 인덱스와 그 값을 <code>q</code>로 나눈 나머지가 잘 보이도록 표로 만들면 다음과 같습니다.</li>
+</ul>
 <table class="table">
         <thead><tr>
 <th><code>code</code></th>
@@ -178,9 +178,7 @@
 <td>0</td>
 </tr>
 </tbody>
-      </table>
-<p><code>q</code>로 나눈 나머지가 1인 인덱스의 문자들을 앞에서부터 순서대로 이어 붙이면 "programmers"가 되므로 이를 return 합니다.</p></li>
-</ul>
-
+      </table><div class="highlight"><pre class="codehilite"><code>`q`로 나눈 나머지가 1인 인덱스의 문자들을 앞에서부터 순서대로 이어 붙이면 "programmers"가 되므로 이를 return 합니다.
+</code></pre></div>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
