@@ -7,7 +7,7 @@ class Solution {
         StringBuffer br = new StringBuffer();
         int answer = 0;
         
-        for(int i=A.length()-1;i>=0;i--){
+        for(int i=A.length()-1;i >= 0;i--){
             answer ++;
             br.append(A.substring(i));
             
