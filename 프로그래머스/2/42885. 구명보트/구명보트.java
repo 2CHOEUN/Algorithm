@@ -5,7 +5,7 @@ class Solution {
         Arrays.sort(people);
         
         int min = 0;
-        int max = people.length-1;
+        int max = people.length - 1;
         
         while (min <= max) {
             if (people[min] + people[max] <= limit) {
