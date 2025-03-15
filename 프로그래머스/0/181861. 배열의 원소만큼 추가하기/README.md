@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 83.2 MB, 시간: 2.83 ms
+메모리: 82.5 MB, 시간: 2.16 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 10월 29일 20:24:20
+2025년 03월 15일 21:48:26
 
 ### 문제 설명
 
@@ -61,7 +61,8 @@
 <p>입출력 예 #1</p>
 
 <ul>
-<li><p>예제 1번에 대해서 a와 X를 나타내보면 다음 표와 같습니다.</p>
+<li>예제 1번에 대해서 a와 X를 나타내보면 다음 표와 같습니다.</li>
+</ul>
 <table class="table">
         <thead><tr>
 <th>a</th>
@@ -85,14 +86,13 @@
 <td>[5, 5, 5, 5, 5, 1, 4, 4, 4, 4]</td>
 </tr>
 </tbody>
-      </table>
-<p>따라서 [5, 5, 5, 5, 5, 1, 4, 4, 4, 4]를 return 합니다.</p></li>
-</ul>
-
+      </table><div class="highlight"><pre class="codehilite"><code>따라서 [5, 5, 5, 5, 5, 1, 4, 4, 4, 4]를 return 합니다.
+</code></pre></div>
 <p>입출력 예 #2</p>
 
 <ul>
-<li><p>예제 2번에 대해서 a와 X를 나타내보면 다음 표와 같습니다. </p>
+<li>예제 2번에 대해서 a와 X를 나타내보면 다음 표와 같습니다. </li>
+</ul>
 <table class="table">
         <thead><tr>
 <th>a</th>
@@ -112,14 +112,13 @@
 <td>[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]</td>
 </tr>
 </tbody>
-      </table>
-<p>따라서 [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]를 return 합니다.</p></li>
-</ul>
-
+      </table><div class="highlight"><pre class="codehilite"><code>따라서 [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]를 return 합니다.
+</code></pre></div>
 <p>입출력 예 #3</p>
 
 <ul>
-<li><p>예제 2번에 대해서 a와 X를 나타내보면 다음 표와 같습니다. </p>
+<li>예제 2번에 대해서 a와 X를 나타내보면 다음 표와 같습니다. </li>
+</ul>
 <table class="table">
         <thead><tr>
 <th>a</th>
@@ -135,9 +134,7 @@
 <td>[1]</td>
 </tr>
 </tbody>
-      </table>
-<p>따라서 [1]을 return 합니다.</p></li>
-</ul>
-
+      </table><div class="highlight"><pre class="codehilite"><code>따라서 [1]을 return 합니다.
+</code></pre></div>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
