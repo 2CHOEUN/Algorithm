@@ -1,9 +1,7 @@
 import java.util.*;
 class Solution {
     public int solution(int[] array) {
-        
        Arrays.sort(array);
-        
         int maxCount = 0;
         int currentCount = 1;
         int mode = array[0];
